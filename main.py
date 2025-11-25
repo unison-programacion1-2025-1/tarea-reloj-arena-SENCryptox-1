@@ -29,7 +29,7 @@ def main():
     # Intentar convertir la altura a entero
     try:
         # TODO: Convertir m_str a entero y asignarlo a m
-        m_str=int(m)
+        m = int(m_str)
         #pass
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
